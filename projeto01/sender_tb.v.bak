@@ -29,14 +29,17 @@ initial begin
 	Ack         = 0;
 	
 	#10
-	Transmit    <= 1;
 	
 	for (i = 0; i < 17; i = i + 1) begin
-		sdrDataIn   <= 16'h1000 + i;
-      wait(Request == 1)
-		#2 Ack   <= 1;
-		#2 Ack   <= 0;
-		#2 Ack   <= 0;
+		#2	
+		sdrDataIn   <= i + 16;
+		Transmit    <= 1;
+		
+		#10
+		Ack         <= 1;
+		
+		#2
+		Ack         <= 0;
 	end
 	
 end

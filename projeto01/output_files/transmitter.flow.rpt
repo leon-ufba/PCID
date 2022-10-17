@@ -1,5 +1,5 @@
 Flow report for transmitter
-Mon Oct 17 04:27:13 2022
+Mon Oct 17 04:38:15 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon Oct 17 04:27:13 2022       ;
+; Flow Status                        ; Successful - Mon Oct 17 04:38:15 2022       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; transmitter                                 ;
 ; Top-level Entity Name              ; sender_control                              ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/17/2022 04:27:02 ;
+; Start date & time ; 10/17/2022 04:38:05 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; transmitter         ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+----------------+-------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name    ; Section Id        ;
 +--------------------------------------+----------------------------------------+---------------+----------------+-------------------+
-; COMPILER_SIGNATURE_ID                ; 1097997412935.166599162212532          ; --            ; --             ; --                ;
+; COMPILER_SIGNATURE_ID                ; 1097997412935.166599228505168          ; --            ; --             ; --                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --             ; sender_control_tb ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --             ; sender_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --             ; sender_memory_tb  ;
@@ -108,8 +108,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4708 MB             ; 00:00:29                           ;
-; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:29                           ;
+; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4704 MB             ; 00:00:27                           ;
+; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:27                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

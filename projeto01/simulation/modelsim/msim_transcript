@@ -12,7 +12,7 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projeto01 {C:/Users/Leon/Desktop/universidade/PCID/projeto01/sender_memory.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 04:28:50 on Oct 17,2022
+# Start time: 04:59:43 on Oct 17,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projeto01" C:/Users/Leon/Desktop/universidade/PCID/projeto01/sender_memory.v 
 # -- Compiling module sender_memory
 # ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projeto01/sender_memory.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
@@ -21,21 +21,21 @@
 # 
 # Top level modules:
 # 	sender_memory
-# End time: 04:28:50 on Oct 17,2022, Elapsed time: 0:00:00
+# End time: 04:59:43 on Oct 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 3
 # vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projeto01 {C:/Users/Leon/Desktop/universidade/PCID/projeto01/sender_control.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 04:28:50 on Oct 17,2022
+# Start time: 04:59:44 on Oct 17,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projeto01" C:/Users/Leon/Desktop/universidade/PCID/projeto01/sender_control.v 
 # -- Compiling module sender_control
 # 
 # Top level modules:
 # 	sender_control
-# End time: 04:28:51 on Oct 17,2022, Elapsed time: 0:00:01
+# End time: 04:59:44 on Oct 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projeto01 {C:/Users/Leon/Desktop/universidade/PCID/projeto01/sender.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 04:28:51 on Oct 17,2022
+# Start time: 04:59:44 on Oct 17,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projeto01" C:/Users/Leon/Desktop/universidade/PCID/projeto01/sender.v 
 # -- Compiling module sender
 # ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projeto01/sender.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
@@ -47,23 +47,23 @@
 # 
 # Top level modules:
 # 	sender
-# End time: 04:28:51 on Oct 17,2022, Elapsed time: 0:00:00
+# End time: 04:59:44 on Oct 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 6
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projeto01 {C:/Users/Leon/Desktop/universidade/PCID/projeto01/sender_control_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 04:28:51 on Oct 17,2022
+# Start time: 04:59:44 on Oct 17,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projeto01" C:/Users/Leon/Desktop/universidade/PCID/projeto01/sender_control_tb.v 
 # -- Compiling module sender_control_tb
 # 
 # Top level modules:
 # 	sender_control_tb
-# End time: 04:28:51 on Oct 17,2022, Elapsed time: 0:00:00
+# End time: 04:59:44 on Oct 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  sender_control_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" sender_control_tb 
-# Start time: 04:28:51 on Oct 17,2022
+# Start time: 04:59:45 on Oct 17,2022
 # Loading work.sender_control_tb
 # Loading work.sender_control
 # Loading work.sender
@@ -74,9 +74,9 @@
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: Leon  Hostname: DESKTOP-KJSGII7  ProcessID: 1564
-#           Attempting to use alternate WLF file "./wlftwt9q3t".
+#           Attempting to use alternate WLF file "./wlftqj4wzc".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftwt9q3t
+#           Using alternate file: ./wlftqj4wzc
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
@@ -192,6 +192,10 @@
 # time = 215 	 ste = 3 	 nst = 0 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
 # time = 217 	 ste = 0 	 nst = 0 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
 add wave -position insertpoint sim:/sender_control_tb/sc/*
+add wave -position insertpoint sim:/sender_control_tb/sc/sdr/*
+add wave -position insertpoint sim:/sender_control_tb/sc/smem/*
+add wave -position insertpoint  \
+sim:/sender_control_tb/sc/smem/mem
 restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'sdrDataOut'. The port definition is at: C:/Users/Leon/Desktop/universidade/PCID/projeto01/sender_control.v(4).
@@ -311,5 +315,8 @@ run
 # time = 213 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
 # time = 215 	 ste = 3 	 nst = 0 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
 # time = 217 	 ste = 0 	 nst = 0 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
-# End time: 04:33:59 on Oct 17,2022, Elapsed time: 0:05:08
+# image file format "bmp" is unknown
+# image file format "bmp" is unknown
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Leon/Desktop/universidade/PCID/projeto01/simulation/modelsim/wave.do
+# End time: 05:03:55 on Oct 17,2022, Elapsed time: 0:04:10
 # Errors: 0, Warnings: 1
