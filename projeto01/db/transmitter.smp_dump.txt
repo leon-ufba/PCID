@@ -1,0 +1,12 @@
+
+State Machine - |sender_memory|next_state
+Name next_state.IDLE next_state.WRITE next_state.READ 
+next_state.IDLE 0 0 0 
+next_state.READ 1 0 1 
+next_state.WRITE 1 1 0 
+
+State Machine - |sender_memory|state
+Name state.IDLE state.WRITE state.READ 
+state.IDLE 0 0 0 
+state.READ 1 0 1 
+state.WRITE 1 1 0 
