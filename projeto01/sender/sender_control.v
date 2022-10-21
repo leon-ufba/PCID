@@ -22,7 +22,6 @@ parameter TRANSMISSION   = 4'd05;
 parameter TRANSMISSION_2 = 4'd06;
 parameter TRANSMISSION_3 = 4'd07;
 parameter WAIT_READY     = 4'd08;
-parameter WAIT_READY_2   = 4'd09;
 
 reg [03:00] state        = IDLE;
 reg [03:00] next_state   = IDLE;
@@ -72,7 +71,7 @@ always @(
       next_state   <= (Ready) ? IDLE : AFTER_READ;
     end
     AFTER_READ: begin
-	   Address      <= counter;
+      Address      <= counter;
       next_counter <= (Ready) ? 0 : (counter < 15) ? counter + 1 : 0;
       next_state   <= (counter == 0) ? TRANSMISSION : WAIT_READY;
     end
