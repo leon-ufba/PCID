@@ -1,0 +1,143 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Emem
+Z0 DPx9 altera_mf 20 altera_mf_components 0 22 BN6nPmY:UEbXa[^5b@FTW1
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+32
+Z3 !s110 1666379640
+!i10b 1
+Z4 w1666371193
+!i122 43
+Z5 dC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim
+Z6 8C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/mem.vhd
+Z7 FC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/mem.vhd
+l0
+L43 1
+VPZ>_jHWc8DloC=7@U6?bg3
+!s100 :Y4nf1T^NG9m@_kO9A^Y?2
+Z8 OV;C;2020.1;71
+Z9 !s108 1666379640.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/mem.vhd|
+Z11 !s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/mem.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Asyn
+R0
+R1
+R2
+DEx4 work 3 mem 0 22 PZ>_jHWc8DloC=7@U6?bg3
+32
+R3
+!i10b 1
+!i122 43
+l59
+L55 36
+V]C0l;l5jdOk^JB6hWJT5^1
+!s100 2SHOHBDn<6N_Wc[P?Xg=T1
+R8
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vsender
+R3
+Z14 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 l]^<mEbMn4_SGY2j>:8D@1
+I_SjiZWUZ]aOBKFmHG`1Z;0
+R5
+w1666195432
+8C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender.v
+FC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender.v
+!i122 44
+L0 1 68
+Z15 OV;L;2020.1;71
+31
+R9
+!s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender.v|
+!i113 1
+Z16 o-work work
+Z17 tCvgOpt 0
+vsender_control
+Z18 !s110 1666379641
+R14
+r1
+!s85 0
+!i10b 1
+!s100 daWfdUC^9c]ZdgeoCAJLd2
+Idd=dejXX^VA`D;oUn=^3N1
+R5
+w1666373476
+8C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender_control.v
+FC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender_control.v
+!i122 45
+L0 1 101
+R15
+31
+Z19 !s108 1666379641.000000
+!s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender_control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender_control.v|
+!i113 1
+R16
+R17
+vsender_ic
+R18
+R14
+r1
+!s85 0
+!i10b 1
+!s100 eTRFTTKgAi@2g^PQ`=^490
+IO12[Cb7R:_gMG;kA9AUaN2
+R5
+w1666379321
+8C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender_ic.v
+FC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender_ic.v
+!i122 46
+Z20 L0 20 84
+R15
+31
+R19
+!s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender_ic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender_ic.v|
+!i113 1
+R16
+R17
+vsender_ic_tb
+R18
+R14
+r1
+!s85 0
+!i10b 1
+!s100 ^jFI7I6Zg`i>]CcVRz=V@1
+IP;<;=XoKl=aWI>TGUeK3R1
+R5
+w1666379629
+8C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender_ic_tb.v
+FC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender_ic_tb.v
+!i122 47
+L0 1 84
+R15
+31
+R19
+!s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender_ic_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/sender_ic_tb.v|
+!i113 1
+R16
+R17

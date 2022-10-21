@@ -1,5 +1,5 @@
 Analysis & Elaboration report for receiver
-Wed Oct 19 12:10:43 2022
+Fri Oct 21 16:42:54 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -10,11 +10,8 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
   4. Parameter Settings for User Entity Instance: Top-level Entity: |receiver_control
-  5. Parameter Settings for User Entity Instance: receiver:rcv
-  6. Parameter Settings for User Entity Instance: receiver_memory:rmem
-  7. Analysis & Elaboration Settings
-  8. Port Connectivity Checks: "receiver_memory:rmem"
-  9. Analysis & Elaboration Messages
+  5. Analysis & Elaboration Settings
+  6. Analysis & Elaboration Messages
 
 
 
@@ -41,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Wed Oct 19 12:10:43 2022       ;
+; Analysis & Elaboration Status      ; Successful - Fri Oct 21 16:42:54 2022       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; receiver                                    ;
 ; Top-level Entity Name              ; receiver_control                            ;
@@ -85,35 +82,12 @@ https://fpgasoftware.intel.com/eula.
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-----------------------------------------------------------+
-; Parameter Settings for User Entity Instance: receiver:rcv ;
-+----------------+-------+----------------------------------+
-; Parameter Name ; Value ; Type                             ;
-+----------------+-------+----------------------------------+
-; IDLE           ; 000   ; Unsigned Binary                  ;
-; REQUEST_SIGNAL ; 001   ; Unsigned Binary                  ;
-; WAIT_WRITE     ; 010   ; Unsigned Binary                  ;
-+----------------+-------+----------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: receiver_memory:rmem ;
-+----------------+-------+------------------------------------------+
-; Parameter Name ; Value ; Type                                     ;
-+----------------+-------+------------------------------------------+
-; IDLE           ; 00    ; Unsigned Binary                          ;
-; READ           ; 01    ; Unsigned Binary                          ;
-; WRITE          ; 10    ; Unsigned Binary                          ;
-+----------------+-------+------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +------------------------------------------------------------------------------------------------------------+
 ; Analysis & Elaboration Settings                                                                            ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE115F29C7      ;                    ;
 ; Top-level entity name                                            ; receiver_control   ; receiver           ;
 ; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
@@ -194,127 +168,51 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------------------------------------------------------------+--------------------+--------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "receiver_memory:rmem"                                                                     ;
-+------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port       ; Type   ; Severity ; Details                                                                             ;
-+------------+--------+----------+-------------------------------------------------------------------------------------+
-; ReadEnable ; Input  ; Info     ; Stuck at GND                                                                        ;
-; DataOut    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------------+--------+----------+-------------------------------------------------------------------------------------+
-
-
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Oct 19 12:10:32 2022
+    Info: Processing started: Fri Oct 21 16:42:43 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off receiver -c receiver --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file receiver_tb.v
-    Info (12023): Found entity 1: receiver_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_tb.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file receiver_memory_tb.v
-    Info (12023): Found entity 1: receiver_memory_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory_tb.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file receiver_memory.v
-    Info (12023): Found entity 1: receiver_memory File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file receiver_control_tb.v
-    Info (12023): Found entity 1: receiver_control_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control_tb.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file receiver_ic_tb.v
+    Info (12023): Found entity 1: receiver_control_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_ic_tb.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file receiver_control.v
     Info (12023): Found entity 1: receiver_control File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file receiver.v
     Info (12023): Found entity 1: receiver File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file receiver_ic.bdf
+    Info (12023): Found entity 1: receiver_ic
+Info (12021): Found 1 design units, including 1 entities, in source file mem.v
+    Info (12023): Found entity 1: mem File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/mem.v Line: 40
 Info (12127): Elaborating entity "receiver_control" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at receiver_control.v(38): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 38
-Warning (10230): Verilog HDL assignment warning at receiver_control.v(50): truncated value with size 32 to match size of target (1) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 50
-Warning (10235): Verilog HDL Always Construct warning at receiver_control.v(55): variable "rcvDataOut" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 55
-Warning (10230): Verilog HDL assignment warning at receiver_control.v(57): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 57
-Warning (10240): Verilog HDL Always Construct warning at receiver_control.v(42): inferring latch(es) for variable "rcvDataIn", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Warning (10240): Verilog HDL Always Construct warning at receiver_control.v(42): inferring latch(es) for variable "memDataIn", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[0]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[1]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[2]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[3]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[4]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[5]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[6]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[7]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[8]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[9]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[10]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[11]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[12]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[13]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[14]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "memDataIn[15]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[0]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[1]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[2]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[3]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[4]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[5]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[6]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[7]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[8]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[9]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[10]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[11]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[12]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[13]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[14]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (10041): Inferred latch for "rcvDataIn[15]" at receiver_control.v(42) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 42
-Info (12128): Elaborating entity "receiver" for hierarchy "receiver:rcv" File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 33
-Warning (10230): Verilog HDL assignment warning at receiver.v(22): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 22
-Warning (10230): Verilog HDL assignment warning at receiver.v(41): truncated value with size 32 to match size of target (1) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 41
-Warning (10230): Verilog HDL assignment warning at receiver.v(42): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 42
-Warning (10240): Verilog HDL Always Construct warning at receiver.v(25): inferring latch(es) for variable "next_counter", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Warning (10240): Verilog HDL Always Construct warning at receiver.v(25): inferring latch(es) for variable "DataOut", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Warning (10240): Verilog HDL Always Construct warning at receiver.v(25): inferring latch(es) for variable "Ack", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "Ack" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[0]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[1]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[2]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[3]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[4]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[5]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[6]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[7]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[8]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[9]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[10]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[11]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[12]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[13]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[14]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "DataOut[15]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "next_counter[0]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "next_counter[1]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "next_counter[2]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (10041): Inferred latch for "next_counter[3]" at receiver.v(25) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v Line: 25
-Info (12128): Elaborating entity "receiver_memory" for hierarchy "receiver_memory:rmem" File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
-Warning (10240): Verilog HDL Always Construct warning at receiver_memory.v(24): inferring latch(es) for variable "DataOut", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[0]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[1]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[2]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[3]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[4]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[5]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[6]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[7]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[8]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[9]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[10]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[11]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[12]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[13]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[14]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info (10041): Inferred latch for "DataOut[15]" at receiver_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v Line: 24
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 14 warnings
+Warning (10230): Verilog HDL assignment warning at receiver_control.v(30): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 30
+Warning (10230): Verilog HDL assignment warning at receiver_control.v(41): truncated value with size 32 to match size of target (1) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 41
+Warning (10230): Verilog HDL assignment warning at receiver_control.v(48): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 48
+Warning (10240): Verilog HDL Always Construct warning at receiver_control.v(34): inferring latch(es) for variable "memDataIn", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[0]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[1]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[2]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[3]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[4]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[5]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[6]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[7]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[8]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[9]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[10]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[11]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[12]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[13]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[14]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info (10041): Inferred latch for "memDataIn[15]" at receiver_control.v(34) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v Line: 34
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 4704 megabytes
-    Info: Processing ended: Wed Oct 19 12:10:43 2022
+    Info: Processing ended: Fri Oct 21 16:42:54 2022
     Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:26
+    Info: Total CPU time (on all processors): 00:00:28
 
 

@@ -1,5 +1,5 @@
 Flow report for receiver
-Wed Oct 19 12:10:43 2022
+Fri Oct 21 16:42:54 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,11 +41,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Oct 19 12:10:43 2022       ;
+; Flow Status                        ; Successful - Fri Oct 21 16:42:54 2022       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; receiver                                    ;
 ; Top-level Entity Name              ; receiver_control                            ;
 ; Family                             ; Cyclone IV E                                ;
+; Device                             ; EP4CE115F29C7                               ;
+; Timing Models                      ; Final                                       ;
 ; Total logic elements               ; N/A until Partition Merge                   ;
 ;     Total combinational functions  ; N/A until Partition Merge                   ;
 ;     Dedicated logic registers      ; N/A until Partition Merge                   ;
@@ -63,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/19/2022 12:10:33 ;
+; Start date & time ; 10/21/2022 16:42:44 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; receiver            ;
 +-------------------+---------------------+
@@ -74,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+------------------+---------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name      ; Section Id          ;
 +--------------------------------------+----------------------------------------+---------------+------------------+---------------------+
-; COMPILER_SIGNATURE_ID                ; 1097997412935.166619223308188          ; --            ; --               ; --                  ;
+; COMPILER_SIGNATURE_ID                ; 1097997412935.166638136411764          ; --            ; --               ; --                  ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --               ; receiver_control_tb ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --               ; receiver_memory_tb  ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --               ; receiver_tb         ;
@@ -95,9 +97,15 @@ https://fpgasoftware.intel.com/eula.
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 300 ps                                 ; --            ; --               ; receiver_memory_tb  ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 300 ps                                 ; --            ; --               ; receiver_tb         ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --               ; eda_simulation      ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --               ; --                  ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --               ; --                  ;
+; MISC_FILE                            ; mem.bsf                                ; --            ; --               ; --                  ;
+; MISC_FILE                            ; mem_bb.v                               ; --            ; --               ; --                  ;
 ; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; receiver_control ; Top                 ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; receiver_control ; Top                 ;
 ; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; receiver_control ; Top                 ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --               ; --                  ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --               ; --                  ;
 ; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --               ; --                  ;
 ; TOP_LEVEL_ENTITY                     ; receiver_control                       ; receiver      ; --               ; --                  ;
 +--------------------------------------+----------------------------------------+---------------+------------------+---------------------+
@@ -108,8 +116,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4704 MB             ; 00:00:26                           ;
-; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:26                           ;
+; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4704 MB             ; 00:00:28                           ;
+; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:28                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

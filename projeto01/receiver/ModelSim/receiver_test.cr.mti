@@ -1,0 +1,41 @@
+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/ModelSim/mem.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/ModelSim/mem.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity mem
+-- Compiling architecture SYN of mem
+
+} {} {}} C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/ModelSim/receiver_ic.v {1 {vlog -work work -stats=none C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/ModelSim/receiver_ic.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module receiver_ic
+
+Top level modules:
+	receiver_ic
+
+} {} {}} C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/ModelSim/receiver.v {2 {vlog -work work -stats=none C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/ModelSim/receiver.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module receiver
+** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/ModelSim/receiver.v(11): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/ModelSim/receiver.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/ModelSim/receiver.v(13): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	receiver
+
+} {} {}} C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/ModelSim/receiver_control.v {1 {vlog -work work -stats=none C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/ModelSim/receiver_control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module receiver_control
+
+Top level modules:
+	receiver_control
+
+} {} {}} C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/ModelSim/receiver_ic_tb.v {1 {vlog -work work -stats=none C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/ModelSim/receiver_ic_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module receiver_ic_tb
+
+Top level modules:
+	receiver_ic_tb
+
+} {} {}}

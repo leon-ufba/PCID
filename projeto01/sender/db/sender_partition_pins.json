@@ -1,0 +1,177 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Request",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[15]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[14]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[13]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[12]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[11]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[10]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[9]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[8]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sdrDataOut[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Ack",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "write",
+					"strict" : false
+				},
+				{
+					"name" : "start",
+					"strict" : false
+				},
+				{
+					"name" : "data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data[15]",
+					"strict" : false
+				},
+				{
+					"name" : "data[14]",
+					"strict" : false
+				},
+				{
+					"name" : "data[13]",
+					"strict" : false
+				},
+				{
+					"name" : "data[12]",
+					"strict" : false
+				},
+				{
+					"name" : "data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

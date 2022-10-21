@@ -38,15 +38,12 @@
 
 
 set_global_assignment -name FAMILY "Cyclone IV E"
-set_global_assignment -name DEVICE auto
+set_global_assignment -name DEVICE EP4CE115F29C7
 set_global_assignment -name TOP_LEVEL_ENTITY receiver_control
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:30:40  OCTOBER 17, 2022"
 set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
-set_global_assignment -name VERILOG_FILE receiver_memory.v
-set_global_assignment -name VERILOG_FILE receiver_control.v
-set_global_assignment -name VERILOG_FILE receiver.v
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
@@ -70,7 +67,14 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name EDA_TEST_BENCH_FILE receiver_memory_tb.v -section_id receiver_memory_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE receiver_tb.v -section_id receiver_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE receiver_control_tb.v -section_id receiver_control_tb
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name VERILOG_TEST_BENCH_FILE receiver_control_tb.v
-set_global_assignment -name VERILOG_TEST_BENCH_FILE receiver_memory_tb.v
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name VERILOG_FILE receiver_ic_tb.v
+set_global_assignment -name VERILOG_FILE receiver_control.v
+set_global_assignment -name VERILOG_FILE receiver.v
 set_global_assignment -name VERILOG_TEST_BENCH_FILE receiver_tb.v
+set_global_assignment -name BDF_FILE receiver_ic.bdf
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name QIP_FILE mem.qip
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
