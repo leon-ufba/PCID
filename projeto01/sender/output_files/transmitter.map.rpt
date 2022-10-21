@@ -1,5 +1,5 @@
 Analysis & Elaboration report for transmitter
-Wed Oct 19 13:08:35 2022
+Fri Oct 21 13:07:58 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Wed Oct 19 13:08:35 2022       ;
+; Analysis & Elaboration Status      ; Successful - Fri Oct 21 13:07:58 2022       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; transmitter                                 ;
 ; Top-level Entity Name              ; sender_control                              ;
@@ -83,11 +83,12 @@ https://fpgasoftware.intel.com/eula.
 ; WRITE          ; 0001  ; Unsigned Binary                                       ;
 ; AFTER_WRITE    ; 0010  ; Unsigned Binary                                       ;
 ; READ           ; 0011  ; Unsigned Binary                                       ;
-; TRANSMISSION   ; 0100  ; Unsigned Binary                                       ;
-; TRANSMISSION_2 ; 0101  ; Unsigned Binary                                       ;
-; TRANSMISSION_3 ; 0110  ; Unsigned Binary                                       ;
-; WAIT_READY     ; 0111  ; Unsigned Binary                                       ;
-; WAIT_READY_2   ; 1000  ; Unsigned Binary                                       ;
+; AFTER_READ     ; 0100  ; Unsigned Binary                                       ;
+; TRANSMISSION   ; 0101  ; Unsigned Binary                                       ;
+; TRANSMISSION_2 ; 0110  ; Unsigned Binary                                       ;
+; TRANSMISSION_3 ; 0111  ; Unsigned Binary                                       ;
+; WAIT_READY     ; 1000  ; Unsigned Binary                                       ;
+; WAIT_READY_2   ; 1001  ; Unsigned Binary                                       ;
 +----------------+-------+-------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -124,6 +125,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE115F29C9L     ;                    ;
 ; Top-level entity name                                            ; sender_control     ; transmitter        ;
 ; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
@@ -210,7 +212,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Oct 19 13:08:23 2022
+    Info: Processing started: Fri Oct 21 13:07:37 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off transmitter -c transmitter --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -221,64 +223,66 @@ Info (12021): Found 1 design units, including 1 entities, in source file sender_
 Info (12021): Found 1 design units, including 1 entities, in source file sender.v
     Info (12023): Found entity 1: sender File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v Line: 1
 Info (12127): Elaborating entity "sender_control" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at sender_control.v(49): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 49
-Warning (10230): Verilog HDL assignment warning at sender_control.v(59): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 59
-Warning (10235): Verilog HDL Always Construct warning at sender_control.v(63): variable "Address" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 63
-Warning (10235): Verilog HDL Always Construct warning at sender_control.v(64): variable "sdrDataIn" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 64
-Warning (10230): Verilog HDL assignment warning at sender_control.v(71): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 71
-Warning (10230): Verilog HDL assignment warning at sender_control.v(76): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 76
-Warning (10230): Verilog HDL assignment warning at sender_control.v(83): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 83
-Warning (10240): Verilog HDL Always Construct warning at sender_control.v(53): inferring latch(es) for variable "next_counter", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Warning (10240): Verilog HDL Always Construct warning at sender_control.v(53): inferring latch(es) for variable "Transmit", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Warning (10240): Verilog HDL Always Construct warning at sender_control.v(53): inferring latch(es) for variable "WriteEnable", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Warning (10240): Verilog HDL Always Construct warning at sender_control.v(53): inferring latch(es) for variable "ReadEnable", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Warning (10240): Verilog HDL Always Construct warning at sender_control.v(53): inferring latch(es) for variable "Address", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Warning (10240): Verilog HDL Always Construct warning at sender_control.v(53): inferring latch(es) for variable "sdrDataIn", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Warning (10240): Verilog HDL Always Construct warning at sender_control.v(53): inferring latch(es) for variable "memDataIn", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[0]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[1]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[2]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[3]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[4]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[5]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[6]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[7]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[8]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[9]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[10]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[11]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[12]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[13]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[14]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "memDataIn[15]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[0]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[1]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[2]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[3]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[4]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[5]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[6]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[7]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[8]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[9]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[10]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[11]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[12]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[13]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[14]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "sdrDataIn[15]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "Address[0]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "Address[1]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "Address[2]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "Address[3]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "ReadEnable" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "WriteEnable" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "Transmit" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "next_counter[0]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "next_counter[1]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "next_counter[2]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (10041): Inferred latch for "next_counter[3]" at sender_control.v(53) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 53
-Info (12128): Elaborating entity "sender" for hierarchy "sender:sdr" File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 44
+Warning (10230): Verilog HDL assignment warning at sender_control.v(50): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 50
+Warning (10230): Verilog HDL assignment warning at sender_control.v(60): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 60
+Warning (10230): Verilog HDL assignment warning at sender_control.v(63): truncated value with size 32 to match size of target (1) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 63
+Warning (10235): Verilog HDL Always Construct warning at sender_control.v(64): variable "Address" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 64
+Warning (10230): Verilog HDL assignment warning at sender_control.v(64): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 64
+Warning (10235): Verilog HDL Always Construct warning at sender_control.v(65): variable "memDataIn" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 65
+Warning (10230): Verilog HDL assignment warning at sender_control.v(74): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 74
+Warning (10230): Verilog HDL assignment warning at sender_control.v(84): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 84
+Warning (10230): Verilog HDL assignment warning at sender_control.v(101): truncated value with size 32 to match size of target (1) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 101
+Warning (10240): Verilog HDL Always Construct warning at sender_control.v(54): inferring latch(es) for variable "next_counter", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Warning (10240): Verilog HDL Always Construct warning at sender_control.v(54): inferring latch(es) for variable "Transmit", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Warning (10240): Verilog HDL Always Construct warning at sender_control.v(54): inferring latch(es) for variable "WriteEnable", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Warning (10240): Verilog HDL Always Construct warning at sender_control.v(54): inferring latch(es) for variable "ReadEnable", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Warning (10240): Verilog HDL Always Construct warning at sender_control.v(54): inferring latch(es) for variable "Address", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Warning (10240): Verilog HDL Always Construct warning at sender_control.v(54): inferring latch(es) for variable "memDataIn", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Warning (10240): Verilog HDL Always Construct warning at sender_control.v(54): inferring latch(es) for variable "sdrDataIn", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[0]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[1]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[2]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[3]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[4]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[5]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[6]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[7]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[8]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[9]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[10]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[11]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[12]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[13]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[14]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "sdrDataIn[15]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[0]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[1]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[2]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[3]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[4]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[5]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[6]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[7]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[8]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[9]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[10]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[11]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[12]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[13]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[14]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "memDataIn[15]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "Address[0]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "Address[1]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "Address[2]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "Address[3]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "ReadEnable" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "WriteEnable" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "Transmit" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "next_counter[0]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "next_counter[1]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "next_counter[2]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (10041): Inferred latch for "next_counter[3]" at sender_control.v(54) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 54
+Info (12128): Elaborating entity "sender" for hierarchy "sender:sdr" File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 45
 Warning (10230): Verilog HDL assignment warning at sender.v(26): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v Line: 26
 Warning (10230): Verilog HDL assignment warning at sender.v(58): truncated value with size 32 to match size of target (1) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v Line: 58
 Warning (10230): Verilog HDL assignment warning at sender.v(59): truncated value with size 32 to match size of target (4) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v Line: 59
@@ -308,7 +312,7 @@ Info (10041): Inferred latch for "next_counter[0]" at sender.v(29) File: C:/User
 Info (10041): Inferred latch for "next_counter[1]" at sender.v(29) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v Line: 29
 Info (10041): Inferred latch for "next_counter[2]" at sender.v(29) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v Line: 29
 Info (10041): Inferred latch for "next_counter[3]" at sender.v(29) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v Line: 29
-Info (12128): Elaborating entity "sender_memory" for hierarchy "sender_memory:smem" File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 45
+Info (12128): Elaborating entity "sender_memory" for hierarchy "sender_memory:smem" File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v Line: 46
 Warning (10240): Verilog HDL Always Construct warning at sender_memory.v(24): inferring latch(es) for variable "DataOut", which holds its previous value in one or more paths through the always construct File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_memory.v Line: 24
 Info (10041): Inferred latch for "DataOut[0]" at sender_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_memory.v Line: 24
 Info (10041): Inferred latch for "DataOut[1]" at sender_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_memory.v Line: 24
@@ -327,10 +331,10 @@ Info (10041): Inferred latch for "DataOut[13]" at sender_memory.v(24) File: C:/U
 Info (10041): Inferred latch for "DataOut[14]" at sender_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_memory.v Line: 24
 Info (10041): Inferred latch for "DataOut[15]" at sender_memory.v(24) File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_memory.v Line: 24
 Info (144001): Generated suppressed messages file C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/output_files/transmitter.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 23 warnings
-    Info: Peak virtual memory: 4708 megabytes
-    Info: Processing ended: Wed Oct 19 13:08:35 2022
-    Info: Elapsed time: 00:00:12
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 25 warnings
+    Info: Peak virtual memory: 4696 megabytes
+    Info: Processing ended: Fri Oct 21 13:07:58 2022
+    Info: Elapsed time: 00:00:21
     Info: Total CPU time (on all processors): 00:00:29
 
 

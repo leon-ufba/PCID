@@ -31,20 +31,19 @@ initial begin
   start = 0;
   
   
-  #2
-  write <= 1;
+  #6
   for (i = 0; i < 18; i = i + 1) begin
-    #2
+    #4
+	 data  <= 16'h1000 + i;
     write <= 1;
-    data  <= 16'h1000 + i;
+	 #2
+	 write <= 0;
   end
-  write <= 0;
   
   
   #10
-  #2
   start <= 1;
-  #4
+  #2
   start <= 0;
   
   

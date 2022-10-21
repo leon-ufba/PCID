@@ -32,7 +32,7 @@ always@(state, ReadEnable, WriteEnable, Address, DataIn) begin
     end
     WRITE: begin
       mem[Address] <= DataIn;
-      next_state   <= (ReadEnable) ? READ : (WriteEnable) ? WRITE : IDLE;
+      next_state   <= (ReadEnable) ? READ : IDLE;
     end
     default: begin
       next_state   <= IDLE;
