@@ -1,0 +1,196 @@
+# Reading pref.tcl
+# do transmitter_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:50:19 on Oct 19,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender" C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_memory.v 
+# -- Compiling module sender_memory
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_memory.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_memory.v(11): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_memory.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	sender_memory
+# End time: 14:50:19 on Oct 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:50:19 on Oct 19,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender" C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v 
+# -- Compiling module sender_control
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v(40): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	sender_control
+# End time: 14:50:19 on Oct 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:50:19 on Oct 19,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender" C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v 
+# -- Compiling module sender
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v(13): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v(14): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v(15): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v(17): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	sender
+# End time: 14:50:20 on Oct 19,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 6
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:50:20 on Oct 19,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender" C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control_tb.v 
+# -- Compiling module sender_control_tb
+# 
+# Top level modules:
+# 	sender_control_tb
+# End time: 14:50:20 on Oct 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  sender_control_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" sender_control_tb 
+# Start time: 14:50:20 on Oct 19,2022
+# Loading work.sender_control_tb
+# Loading work.sender_control
+# Loading work.sender
+# Loading work.sender_memory
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'sdrDataOut'. The port definition is at: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /sender_control_tb/sc File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control_tb.v Line: 15
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Leon  Hostname: DESKTOP-KJSGII7  ProcessID: 1564
+#           Attempting to use alternate WLF file "./wlftg49knf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftg49knf
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 300 ps
+# time = 0 	 ste = 0 	 nst = 0 	 rst = 0 	 ack = 0 	 in  = 0 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 2 	 ste = 0 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 0 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 3 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 0 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 4 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 1000 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 6 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 1001 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 8 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 1002 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 10 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 1003 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 12 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 1004 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 14 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 1005 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 16 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 1006 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 18 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 1007 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 20 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 1008 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 22 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 1009 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 24 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 100a 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 26 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 100b 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 28 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 100c 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 30 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 100d 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 32 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 100e 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 34 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 100f 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 36 	 ste = 1 	 nst = 1 	 rst = 0 	 ack = 0 	 in  = 1010 	 wrt = 1 	 str = 0 	 req = 0 	 out = 0
+# time = 38 	 ste = 1 	 nst = 2 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 39 	 ste = 2 	 nst = 0 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 41 	 ste = 0 	 nst = 0 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 50 	 ste = 0 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 1 	 req = 0 	 out = 0
+# time = 51 	 ste = 3 	 nst = 4 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 1 	 req = 0 	 out = 0
+# time = 53 	 ste = 4 	 nst = 5 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 1 	 req = 0 	 out = 0
+# time = 54 	 ste = 4 	 nst = 5 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 55 	 ste = 5 	 nst = 6 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 57 	 ste = 6 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 59 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 61 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 63 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 65 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 67 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 69 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 71 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 73 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 75 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 77 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 79 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 81 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 83 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 85 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 87 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 89 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 91 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 93 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 95 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 97 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 99 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 101 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 103 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 105 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 107 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 109 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 111 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 113 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 115 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 117 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 119 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 121 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 123 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 125 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 127 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 129 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 131 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 133 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 135 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 137 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 139 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 141 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 143 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 145 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 147 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 149 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 151 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 153 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 155 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 157 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 159 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 161 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 163 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 165 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 167 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 169 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 171 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 173 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 175 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 177 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 179 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 181 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 183 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 185 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 187 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 189 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 191 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 193 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 195 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 197 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 199 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 201 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 0
+# time = 203 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 205 	 ste = 3 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# time = 207 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 209 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 211 	 ste = 7 	 nst = 7 	 rst = 0 	 ack = 1 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 1 	 out = 1
+# time = 213 	 ste = 7 	 nst = 3 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 215 	 ste = 3 	 nst = 0 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 1
+# time = 217 	 ste = 0 	 nst = 0 	 rst = 0 	 ack = 0 	 in  = 1011 	 wrt = 0 	 str = 0 	 req = 0 	 out = 0
+# End time: 14:51:05 on Oct 19,2022, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 3

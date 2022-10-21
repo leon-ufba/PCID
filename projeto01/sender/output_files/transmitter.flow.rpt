@@ -1,0 +1,131 @@
+Flow report for transmitter
+Wed Oct 19 13:08:35 2022
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Wed Oct 19 13:08:35 2022       ;
+; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                      ; transmitter                                 ;
+; Top-level Entity Name              ; sender_control                              ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 10/19/2022 13:08:24 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; transmitter         ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                   ;
++--------------------------------------+----------------------------------------+---------------+----------------+-------------------+
+; Assignment Name                      ; Value                                  ; Default Value ; Entity Name    ; Section Id        ;
++--------------------------------------+----------------------------------------+---------------+----------------+-------------------+
+; COMPILER_SIGNATURE_ID                ; 1097997412935.166619570412720          ; --            ; --             ; --                ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --             ; sender_control_tb ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --             ; sender_tb         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --             ; sender_memory_tb  ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; sender_control_tb                      ; --            ; --             ; eda_simulation    ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --             ; eda_simulation    ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>        ; --             ; --                ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --             ; eda_simulation    ;
+; EDA_TEST_BENCH_FILE                  ; sender_control_tb.v                    ; --            ; --             ; sender_control_tb ;
+; EDA_TEST_BENCH_FILE                  ; sender_tb.v                            ; --            ; --             ; sender_tb         ;
+; EDA_TEST_BENCH_FILE                  ; sender_memory_tb.v                     ; --            ; --             ; sender_memory_tb  ;
+; EDA_TEST_BENCH_MODULE_NAME           ; sender_control_tb                      ; --            ; --             ; sender_control_tb ;
+; EDA_TEST_BENCH_MODULE_NAME           ; sender_tb                              ; --            ; --             ; sender_tb         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; sender_memory_tb                       ; --            ; --             ; sender_memory_tb  ;
+; EDA_TEST_BENCH_NAME                  ; sender_memory_tb                       ; --            ; --             ; eda_simulation    ;
+; EDA_TEST_BENCH_NAME                  ; sender_tb                              ; --            ; --             ; eda_simulation    ;
+; EDA_TEST_BENCH_NAME                  ; sender_control_tb                      ; --            ; --             ; eda_simulation    ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 300 ps                                 ; --            ; --             ; sender_control_tb ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 300 ps                                 ; --            ; --             ; sender_tb         ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 300 ps                                 ; --            ; --             ; sender_memory_tb  ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --             ; eda_simulation    ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; sender_control ; Top               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; sender_control ; Top               ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; sender_control ; Top               ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --             ; --                ;
+; TOP_LEVEL_ENTITY                     ; sender_control                         ; transmitter   ; --             ; --                ;
++--------------------------------------+----------------------------------------+---------------+----------------+-------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:12     ; 1.0                     ; 4708 MB             ; 00:00:29                           ;
+; Total                  ; 00:00:12     ; --                      ; --                  ; 00:00:29                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                      ;
++------------------------+------------------+------------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++------------------------+------------------+------------+------------+----------------+
+; Analysis & Elaboration ; DESKTOP-KJSGII7  ; Windows 10 ; 10.0       ; x86_64         ;
++------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off transmitter -c transmitter --analysis_and_elaboration
+
+
+

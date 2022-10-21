@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/simulation/modelsim
+vsender
+Z1 !s110 1666201820
+!i10b 1
+!s100 a6O0P]Z5YZSo`ef910Q`^3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@QbSFbeV_ohUXIHUNWIn11
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1666195432
+8C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v
+FC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v
+!i122 2
+L0 1 68
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1666201819.000000
+!s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender
+Z8 tCvgOpt 0
+vsender_control
+Z9 !s110 1666201819
+!i10b 1
+!s100 n6F8N]fh4zP^]mia1K:DQ2
+R2
+IS:RKPW7LHT[n3oF3PRQfC2
+R3
+R0
+w1666195690
+8C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v
+FC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v
+!i122 1
+L0 1 108
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control.v|
+!i113 1
+R6
+R7
+R8
+vsender_control_tb
+R1
+!i10b 1
+!s100 0iJVg@VAf<eHIT<OiChSW1
+R2
+I>26<070zVl9zQXjW1N>mE3
+R3
+R0
+w1666011259
+8C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control_tb.v
+FC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control_tb.v
+!i122 3
+L0 1 61
+R4
+r1
+!s85 0
+31
+!s108 1666201820.000000
+!s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_control_tb.v|
+!i113 1
+R6
+R7
+R8
+vsender_memory
+R9
+!i10b 1
+!s100 X`BziMoBAkGX[lB`UJ0Dk1
+R2
+I>cIe>mWL;cGjg`c=1l@Fb2
+R3
+R0
+w1666195346
+8C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_memory.v
+FC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_memory.v
+!i122 0
+L0 1 43
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/sender_memory.v|
+!i113 1
+R6
+R7
+R8

@@ -1,0 +1,264 @@
+# Reading pref.tcl
+# do receiver_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:10:53 on Oct 19,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver" C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v 
+# -- Compiling module receiver_memory
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v(11): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_memory.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	receiver_memory
+# End time: 12:10:53 on Oct 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:10:54 on Oct 19,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver" C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control.v 
+# -- Compiling module receiver_control
+# 
+# Top level modules:
+# 	receiver_control
+# End time: 12:10:54 on Oct 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:10:54 on Oct 19,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver" C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v 
+# -- Compiling module receiver
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v(11): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver.v(13): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	receiver
+# End time: 12:10:54 on Oct 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:10:54 on Oct 19,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver" C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/receiver/receiver_control_tb.v 
+# -- Compiling module receiver_control_tb
+# 
+# Top level modules:
+# 	receiver_control_tb
+# End time: 12:10:54 on Oct 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  receiver_control_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" receiver_control_tb 
+# Start time: 12:10:54 on Oct 19,2022
+# Loading work.receiver_control_tb
+# Loading work.receiver_control
+# Loading work.receiver
+# Loading work.receiver_memory
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Leon  Hostname: DESKTOP-KJSGII7  ProcessID: 11628
+#           Attempting to use alternate WLF file "./wlft6fbxer".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft6fbxer
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 300 ps
+# time = 0 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 0 	 req = 0 	 ack = 0 	 out = 0
+# time = 10 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1000 	 req = 0 	 ack = 0 	 out = 1000
+# time = 16 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1000 	 req = 1 	 ack = 0 	 out = 1000
+# time = 17 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1000 	 req = 1 	 ack = 1 	 out = 1000
+# time = 19 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1001 	 req = 0 	 ack = 0 	 out = 1000
+# time = 21 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1001 	 req = 0 	 ack = 0 	 out = 1001
+# time = 25 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1001 	 req = 1 	 ack = 0 	 out = 1001
+# time = 27 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1001 	 req = 1 	 ack = 1 	 out = 1001
+# time = 29 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1002 	 req = 0 	 ack = 0 	 out = 1001
+# time = 31 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1002 	 req = 0 	 ack = 0 	 out = 1002
+# time = 35 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1002 	 req = 1 	 ack = 0 	 out = 1002
+# time = 37 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1002 	 req = 1 	 ack = 1 	 out = 1002
+# time = 39 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1003 	 req = 0 	 ack = 0 	 out = 1002
+# time = 41 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1003 	 req = 0 	 ack = 0 	 out = 1003
+# time = 45 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1003 	 req = 1 	 ack = 0 	 out = 1003
+# time = 47 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1003 	 req = 1 	 ack = 1 	 out = 1003
+# time = 49 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1004 	 req = 0 	 ack = 0 	 out = 1003
+# time = 51 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1004 	 req = 0 	 ack = 0 	 out = 1004
+# time = 55 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1004 	 req = 1 	 ack = 0 	 out = 1004
+# time = 57 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1004 	 req = 1 	 ack = 1 	 out = 1004
+# time = 59 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1005 	 req = 0 	 ack = 0 	 out = 1004
+# time = 61 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1005 	 req = 0 	 ack = 0 	 out = 1005
+# time = 65 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1005 	 req = 1 	 ack = 0 	 out = 1005
+# time = 67 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1005 	 req = 1 	 ack = 1 	 out = 1005
+# time = 69 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1006 	 req = 0 	 ack = 0 	 out = 1005
+# time = 71 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1006 	 req = 0 	 ack = 0 	 out = 1006
+# time = 75 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1006 	 req = 1 	 ack = 0 	 out = 1006
+# time = 77 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1006 	 req = 1 	 ack = 1 	 out = 1006
+# time = 79 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1007 	 req = 0 	 ack = 0 	 out = 1006
+# time = 81 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1007 	 req = 0 	 ack = 0 	 out = 1007
+# time = 85 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1007 	 req = 1 	 ack = 0 	 out = 1007
+# time = 87 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1007 	 req = 1 	 ack = 1 	 out = 1007
+# time = 89 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1008 	 req = 0 	 ack = 0 	 out = 1007
+# time = 91 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1008 	 req = 0 	 ack = 0 	 out = 1008
+# time = 95 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1008 	 req = 1 	 ack = 0 	 out = 1008
+# time = 97 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1008 	 req = 1 	 ack = 1 	 out = 1008
+# time = 99 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1009 	 req = 0 	 ack = 0 	 out = 1008
+# time = 101 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1009 	 req = 0 	 ack = 0 	 out = 1009
+# time = 105 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1009 	 req = 1 	 ack = 0 	 out = 1009
+# time = 107 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1009 	 req = 1 	 ack = 1 	 out = 1009
+# time = 109 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 100a 	 req = 0 	 ack = 0 	 out = 1009
+# time = 111 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100a 	 req = 0 	 ack = 0 	 out = 100a
+# time = 115 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100a 	 req = 1 	 ack = 0 	 out = 100a
+# time = 117 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 100a 	 req = 1 	 ack = 1 	 out = 100a
+# time = 119 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 100b 	 req = 0 	 ack = 0 	 out = 100a
+# time = 121 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100b 	 req = 0 	 ack = 0 	 out = 100b
+# time = 125 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100b 	 req = 1 	 ack = 0 	 out = 100b
+# time = 127 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 100b 	 req = 1 	 ack = 1 	 out = 100b
+# time = 129 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 100c 	 req = 0 	 ack = 0 	 out = 100b
+# time = 131 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100c 	 req = 0 	 ack = 0 	 out = 100c
+# time = 135 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100c 	 req = 1 	 ack = 0 	 out = 100c
+# time = 137 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 100c 	 req = 1 	 ack = 1 	 out = 100c
+# time = 139 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 100d 	 req = 0 	 ack = 0 	 out = 100c
+# time = 141 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100d 	 req = 0 	 ack = 0 	 out = 100d
+# time = 145 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100d 	 req = 1 	 ack = 0 	 out = 100d
+# time = 147 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 100d 	 req = 1 	 ack = 1 	 out = 100d
+# time = 149 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 100e 	 req = 0 	 ack = 0 	 out = 100d
+# time = 151 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100e 	 req = 0 	 ack = 0 	 out = 100e
+# time = 155 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100e 	 req = 1 	 ack = 0 	 out = 100e
+# time = 157 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 100e 	 req = 1 	 ack = 1 	 out = 100e
+# time = 159 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 100f 	 req = 0 	 ack = 0 	 out = 100e
+# time = 161 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100f 	 req = 0 	 ack = 0 	 out = 100f
+# time = 165 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100f 	 req = 1 	 ack = 0 	 out = 100f
+# time = 167 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 100f 	 req = 1 	 ack = 1 	 out = 100f
+# time = 169 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1010 	 req = 0 	 ack = 0 	 out = 100f
+# time = 171 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1010 	 req = 0 	 ack = 0 	 out = 1010
+# time = 175 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1010 	 req = 1 	 ack = 0 	 out = 1010
+# time = 177 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1010 	 req = 1 	 ack = 1 	 out = 1010
+# time = 179 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1010 	 req = 0 	 ack = 0 	 out = 1010
+# time = 181 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1010 	 req = 0 	 ack = 0 	 out = 1010
+restart -f -nolist -nowave -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint  \
+sim:/receiver_control_tb/sc/clk \
+sim:/receiver_control_tb/sc/Reset \
+sim:/receiver_control_tb/sc/data \
+sim:/receiver_control_tb/sc/Request \
+sim:/receiver_control_tb/sc/Ack \
+sim:/receiver_control_tb/sc/rcvDataOut \
+sim:/receiver_control_tb/sc/state \
+sim:/receiver_control_tb/sc/next_state \
+sim:/receiver_control_tb/sc/counter \
+sim:/receiver_control_tb/sc/next_counter \
+sim:/receiver_control_tb/sc/Ready \
+sim:/receiver_control_tb/sc/rcvDataIn \
+sim:/receiver_control_tb/sc/memDataIn \
+sim:/receiver_control_tb/sc/memDataOut \
+sim:/receiver_control_tb/sc/Address \
+sim:/receiver_control_tb/sc/ReadEnable \
+sim:/receiver_control_tb/sc/WriteEnable
+add wave -position insertpoint  \
+sim:/receiver_control_tb/sc/rcv/clk \
+sim:/receiver_control_tb/sc/rcv/Reset \
+sim:/receiver_control_tb/sc/rcv/Request \
+sim:/receiver_control_tb/sc/rcv/DataIn \
+sim:/receiver_control_tb/sc/rcv/Ack \
+sim:/receiver_control_tb/sc/rcv/Ready \
+sim:/receiver_control_tb/sc/rcv/DataOut \
+sim:/receiver_control_tb/sc/rcv/state \
+sim:/receiver_control_tb/sc/rcv/next_state \
+sim:/receiver_control_tb/sc/rcv/counter \
+sim:/receiver_control_tb/sc/rcv/next_counter
+add wave -position insertpoint  \
+sim:/receiver_control_tb/sc/rmem/clk \
+sim:/receiver_control_tb/sc/rmem/ReadEnable \
+sim:/receiver_control_tb/sc/rmem/WriteEnable \
+sim:/receiver_control_tb/sc/rmem/Address \
+sim:/receiver_control_tb/sc/rmem/DataIn \
+sim:/receiver_control_tb/sc/rmem/DataOut \
+sim:/receiver_control_tb/sc/rmem/mem \
+sim:/receiver_control_tb/sc/rmem/state \
+sim:/receiver_control_tb/sc/rmem/next_state
+run
+# time = 0 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 0 	 req = 0 	 ack = 0 	 out = 0
+# time = 10 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1000 	 req = 0 	 ack = 0 	 out = 1000
+# time = 16 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1000 	 req = 1 	 ack = 0 	 out = 1000
+# time = 17 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1000 	 req = 1 	 ack = 1 	 out = 1000
+# time = 19 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1001 	 req = 0 	 ack = 0 	 out = 1000
+# time = 21 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1001 	 req = 0 	 ack = 0 	 out = 1001
+# time = 25 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1001 	 req = 1 	 ack = 0 	 out = 1001
+# time = 27 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1001 	 req = 1 	 ack = 1 	 out = 1001
+# time = 29 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1002 	 req = 0 	 ack = 0 	 out = 1001
+# time = 31 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1002 	 req = 0 	 ack = 0 	 out = 1002
+# time = 35 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1002 	 req = 1 	 ack = 0 	 out = 1002
+# time = 37 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1002 	 req = 1 	 ack = 1 	 out = 1002
+# time = 39 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1003 	 req = 0 	 ack = 0 	 out = 1002
+# time = 41 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1003 	 req = 0 	 ack = 0 	 out = 1003
+# time = 45 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1003 	 req = 1 	 ack = 0 	 out = 1003
+# time = 47 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1003 	 req = 1 	 ack = 1 	 out = 1003
+# time = 49 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1004 	 req = 0 	 ack = 0 	 out = 1003
+# time = 51 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1004 	 req = 0 	 ack = 0 	 out = 1004
+# time = 55 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1004 	 req = 1 	 ack = 0 	 out = 1004
+# time = 57 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1004 	 req = 1 	 ack = 1 	 out = 1004
+# time = 59 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1005 	 req = 0 	 ack = 0 	 out = 1004
+# time = 61 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1005 	 req = 0 	 ack = 0 	 out = 1005
+# time = 65 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1005 	 req = 1 	 ack = 0 	 out = 1005
+# time = 67 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1005 	 req = 1 	 ack = 1 	 out = 1005
+# time = 69 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1006 	 req = 0 	 ack = 0 	 out = 1005
+# time = 71 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1006 	 req = 0 	 ack = 0 	 out = 1006
+# time = 75 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1006 	 req = 1 	 ack = 0 	 out = 1006
+# time = 77 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1006 	 req = 1 	 ack = 1 	 out = 1006
+# time = 79 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1007 	 req = 0 	 ack = 0 	 out = 1006
+# time = 81 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1007 	 req = 0 	 ack = 0 	 out = 1007
+# time = 85 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1007 	 req = 1 	 ack = 0 	 out = 1007
+# time = 87 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1007 	 req = 1 	 ack = 1 	 out = 1007
+# time = 89 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1008 	 req = 0 	 ack = 0 	 out = 1007
+# time = 91 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1008 	 req = 0 	 ack = 0 	 out = 1008
+# time = 95 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1008 	 req = 1 	 ack = 0 	 out = 1008
+# time = 97 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1008 	 req = 1 	 ack = 1 	 out = 1008
+# time = 99 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1009 	 req = 0 	 ack = 0 	 out = 1008
+run
+# time = 101 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1009 	 req = 0 	 ack = 0 	 out = 1009
+# time = 105 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1009 	 req = 1 	 ack = 0 	 out = 1009
+# time = 107 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1009 	 req = 1 	 ack = 1 	 out = 1009
+# time = 109 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 100a 	 req = 0 	 ack = 0 	 out = 1009
+# time = 111 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100a 	 req = 0 	 ack = 0 	 out = 100a
+# time = 115 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100a 	 req = 1 	 ack = 0 	 out = 100a
+# time = 117 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 100a 	 req = 1 	 ack = 1 	 out = 100a
+# time = 119 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 100b 	 req = 0 	 ack = 0 	 out = 100a
+# time = 121 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100b 	 req = 0 	 ack = 0 	 out = 100b
+# time = 125 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100b 	 req = 1 	 ack = 0 	 out = 100b
+# time = 127 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 100b 	 req = 1 	 ack = 1 	 out = 100b
+# time = 129 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 100c 	 req = 0 	 ack = 0 	 out = 100b
+# time = 131 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100c 	 req = 0 	 ack = 0 	 out = 100c
+# time = 135 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100c 	 req = 1 	 ack = 0 	 out = 100c
+# time = 137 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 100c 	 req = 1 	 ack = 1 	 out = 100c
+# time = 139 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 100d 	 req = 0 	 ack = 0 	 out = 100c
+# time = 141 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100d 	 req = 0 	 ack = 0 	 out = 100d
+# time = 145 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100d 	 req = 1 	 ack = 0 	 out = 100d
+# time = 147 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 100d 	 req = 1 	 ack = 1 	 out = 100d
+# time = 149 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 100e 	 req = 0 	 ack = 0 	 out = 100d
+# time = 151 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100e 	 req = 0 	 ack = 0 	 out = 100e
+# time = 155 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100e 	 req = 1 	 ack = 0 	 out = 100e
+# time = 157 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 100e 	 req = 1 	 ack = 1 	 out = 100e
+# time = 159 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 100f 	 req = 0 	 ack = 0 	 out = 100e
+# time = 161 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100f 	 req = 0 	 ack = 0 	 out = 100f
+# time = 165 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 100f 	 req = 1 	 ack = 0 	 out = 100f
+# time = 167 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 100f 	 req = 1 	 ack = 1 	 out = 100f
+# time = 169 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1010 	 req = 0 	 ack = 0 	 out = 100f
+# time = 171 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1010 	 req = 0 	 ack = 0 	 out = 1010
+# time = 175 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1010 	 req = 1 	 ack = 0 	 out = 1010
+# time = 177 	 ste = 0 	 nst = 1 	 rst = 0 	 in  = 1010 	 req = 1 	 ack = 1 	 out = 1010
+# time = 179 	 ste = 1 	 nst = 0 	 rst = 0 	 in  = 1010 	 req = 0 	 ack = 0 	 out = 1010
+# time = 181 	 ste = 0 	 nst = 0 	 rst = 0 	 in  = 1010 	 req = 0 	 ack = 0 	 out = 1010
+run
