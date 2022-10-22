@@ -1,0 +1,566 @@
+vsim -gui work.sender_ic_tb
+# vsim -gui work.sender_ic_tb 
+# Start time: 21:39:39 on Oct 21,2022
+# Loading work.sender_ic_tb
+# Loading work.sender_ic
+# Loading work.sender_control
+# Loading work.sender
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.mem(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+do C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/wave.do
+add wave -position insertpoint  \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/clk \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/Reset \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/data \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/write \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/start \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/state \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/next_state \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/counter \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/next_counter \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/Transmit \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/Ready \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/sdrDataIn \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/memDataIn \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/memDataOut \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/Address \
+sim:/sender_ic_tb/sdr_ic/b2v_inst/WriteEnable
+add wave -position insertpoint  \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/clk \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/Reset \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/Transmit \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/DataIn \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/Ack \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/Ready \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/Request \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/DataOut \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/state \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/next_state \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/counter \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/next_counter
+add wave -position insertpoint  \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/clk \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/Reset \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/Transmit \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/DataIn \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/Ack \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/Ready \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/Request \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/DataOut \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/state \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/next_state \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/counter \
+sim:/sender_ic_tb/sdr_ic/b2v_inst2/next_counter
+run
+# time = 0 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 0
+# time = 1 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 0
+# time = 2 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 0
+# time = 3 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 0
+# time = 4 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 0
+# time = 5 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 0
+# time = 6 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 0
+# time = 7 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 0
+# time = 8 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 0
+# time = 9 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 0
+# time = 10 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 1 	 in  = 0 	 ack = 0 	 req = 0 	 out = 0
+# time = 11 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 1 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 12 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 13 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 14 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 15 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 16 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 17 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 18 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 19 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 20 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 21 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2000
+# time = 22 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2000
+# time = 23 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2000
+# time = 24 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2000
+# time = 25 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 26 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 27 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 28 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 29 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 30 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 31 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2000
+# time = 32 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2000
+# time = 33 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2000
+# time = 34 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2000
+# time = 35 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 36 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 37 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 38 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2000
+# time = 39 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2001
+# time = 40 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2001
+# time = 41 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2001
+# time = 42 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2001
+# time = 43 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2001
+# time = 44 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2001
+# time = 45 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2001
+# time = 46 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2001
+# time = 47 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2001
+# time = 48 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2001
+# time = 49 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2002
+# time = 50 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2002
+# time = 51 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2002
+# time = 52 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2002
+# time = 53 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2002
+# time = 54 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2002
+# time = 55 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2002
+# time = 56 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2002
+# time = 57 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2002
+# time = 58 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2002
+# time = 59 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2003
+# time = 60 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2003
+# time = 61 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2003
+# time = 62 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2003
+# time = 63 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2003
+# time = 64 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2003
+# time = 65 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2003
+# time = 66 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2003
+# time = 67 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2003
+# time = 68 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2003
+# time = 69 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2004
+# time = 70 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2004
+# time = 71 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2004
+# time = 72 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2004
+# time = 73 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2004
+# time = 74 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2004
+# time = 75 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2004
+# time = 76 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2004
+# time = 77 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2004
+# time = 78 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2004
+# time = 79 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2005
+# time = 80 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2005
+# time = 81 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2005
+# time = 82 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2005
+# time = 83 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2005
+# time = 84 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2005
+# time = 85 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2005
+# time = 86 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2005
+# time = 87 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2005
+# time = 88 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2005
+# time = 89 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2006
+# time = 90 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2006
+# time = 91 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2006
+# time = 92 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2006
+# time = 93 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2006
+# time = 94 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2006
+# time = 95 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2006
+# time = 96 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2006
+# time = 97 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2006
+# time = 98 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2006
+# time = 99 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2007
+# time = 100 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2007
+# time = 101 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2007
+# time = 102 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2007
+# time = 103 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2007
+# time = 104 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2007
+# time = 105 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2007
+# time = 106 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2007
+# time = 107 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2007
+# time = 108 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2007
+# time = 109 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2008
+# time = 110 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2008
+# time = 111 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2008
+# time = 112 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2008
+# time = 113 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2008
+# time = 114 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2008
+# time = 115 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2008
+# time = 116 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2008
+# time = 117 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2008
+# time = 118 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2008
+# time = 119 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2009
+# time = 120 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2009
+# time = 121 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2009
+# time = 122 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 2009
+# time = 123 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2009
+# time = 124 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 2009
+# time = 125 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2009
+# time = 126 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2009
+# time = 127 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2009
+# time = 128 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 2009
+# time = 129 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200a
+# time = 130 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200a
+# time = 131 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 200a
+# time = 132 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 200a
+# time = 133 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 200a
+# time = 134 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 200a
+# time = 135 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200a
+# time = 136 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200a
+# time = 137 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200a
+# time = 138 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200a
+# time = 139 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200b
+# time = 140 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200b
+# time = 141 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 200b
+# time = 142 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 200b
+# time = 143 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 200b
+# time = 144 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 200b
+# time = 145 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200b
+# time = 146 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200b
+# time = 147 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200b
+# time = 148 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200b
+# time = 149 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200c
+# time = 150 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200c
+# time = 151 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 200c
+# time = 152 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 200c
+# time = 153 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 200c
+# time = 154 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 200c
+# time = 155 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200c
+# time = 156 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200c
+# time = 157 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200c
+# time = 158 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200c
+# time = 159 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200d
+# time = 160 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200d
+# time = 161 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 200d
+# time = 162 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 200d
+# time = 163 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 200d
+# time = 164 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 200d
+# time = 165 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200d
+# time = 166 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200d
+# time = 167 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200d
+# time = 168 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200d
+# time = 169 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200e
+# time = 170 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200e
+# time = 171 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 200e
+# time = 172 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 1 	 out = 200e
+# time = 173 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 200e
+# time = 174 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 1 	 out = 200e
+# time = 175 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200e
+# time = 176 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200e
+# time = 177 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200e
+# time = 178 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 0 	 req = 0 	 out = 200e
+# time = 179 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 0 	 out = 200f
+# time = 180 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 0 	 out = 200f
+# time = 181 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 0 	 out = 200f
+# time = 182 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 0 	 out = 200f
+# time = 183 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 0 	 out = 200f
+# time = 184 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 0 	 out = 200f
+# time = 185 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 0 	 out = 200f
+# time = 186 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 0 	 out = 200f
+# time = 187 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 0 	 out = 200f
+# time = 188 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 0 	 out = 200f
+# time = 189 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 0 	 out = 200f
+# time = 190 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 0 	 out = 200f
+# time = 191 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 0 	 out = 200f
+# time = 192 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 0 	 ack = 1 	 req = 0 	 out = 200f
+# time = 193 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1000 	 ack = 1 	 req = 0 	 out = 200f
+# time = 194 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1000 	 ack = 1 	 req = 0 	 out = 200f
+# time = 195 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1000 	 ack = 1 	 req = 0 	 out = 200f
+# time = 196 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1000 	 ack = 1 	 req = 0 	 out = 200f
+# time = 197 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1000 	 ack = 1 	 req = 0 	 out = 200f
+# time = 198 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1000 	 ack = 1 	 req = 0 	 out = 200f
+# time = 199 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1001 	 ack = 1 	 req = 0 	 out = 200f
+# time = 200 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1001 	 ack = 1 	 req = 0 	 out = 200f
+# time = 201 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1001 	 ack = 1 	 req = 0 	 out = 200f
+# time = 202 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1001 	 ack = 1 	 req = 0 	 out = 200f
+# time = 203 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1001 	 ack = 1 	 req = 0 	 out = 200f
+# time = 204 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1001 	 ack = 1 	 req = 0 	 out = 200f
+# time = 205 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1002 	 ack = 1 	 req = 0 	 out = 200f
+# time = 206 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1002 	 ack = 1 	 req = 0 	 out = 200f
+# time = 207 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1002 	 ack = 1 	 req = 0 	 out = 200f
+# time = 208 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1002 	 ack = 1 	 req = 0 	 out = 200f
+# time = 209 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1002 	 ack = 1 	 req = 0 	 out = 200f
+# time = 210 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1002 	 ack = 1 	 req = 0 	 out = 200f
+# time = 211 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1003 	 ack = 1 	 req = 0 	 out = 200f
+# time = 212 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1003 	 ack = 1 	 req = 0 	 out = 200f
+# time = 213 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1003 	 ack = 1 	 req = 0 	 out = 200f
+# time = 214 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1003 	 ack = 1 	 req = 0 	 out = 200f
+# time = 215 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1003 	 ack = 1 	 req = 0 	 out = 200f
+# time = 216 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1003 	 ack = 1 	 req = 0 	 out = 200f
+# time = 217 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1004 	 ack = 1 	 req = 0 	 out = 200f
+# time = 218 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1004 	 ack = 1 	 req = 0 	 out = 200f
+# time = 219 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1004 	 ack = 1 	 req = 0 	 out = 200f
+# time = 220 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1004 	 ack = 1 	 req = 0 	 out = 200f
+# time = 221 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1004 	 ack = 1 	 req = 0 	 out = 200f
+# time = 222 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1004 	 ack = 1 	 req = 0 	 out = 200f
+# time = 223 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1005 	 ack = 1 	 req = 0 	 out = 200f
+# time = 224 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1005 	 ack = 1 	 req = 0 	 out = 200f
+# time = 225 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1005 	 ack = 1 	 req = 0 	 out = 200f
+# time = 226 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1005 	 ack = 1 	 req = 0 	 out = 200f
+# time = 227 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1005 	 ack = 1 	 req = 0 	 out = 200f
+# time = 228 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1005 	 ack = 1 	 req = 0 	 out = 200f
+# time = 229 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1006 	 ack = 1 	 req = 0 	 out = 200f
+# time = 230 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1006 	 ack = 1 	 req = 0 	 out = 200f
+# time = 231 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1006 	 ack = 1 	 req = 0 	 out = 200f
+# time = 232 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1006 	 ack = 1 	 req = 0 	 out = 200f
+# time = 233 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1006 	 ack = 1 	 req = 0 	 out = 200f
+# time = 234 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1006 	 ack = 1 	 req = 0 	 out = 200f
+# time = 235 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1007 	 ack = 1 	 req = 0 	 out = 200f
+# time = 236 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1007 	 ack = 1 	 req = 0 	 out = 200f
+# time = 237 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1007 	 ack = 1 	 req = 0 	 out = 200f
+# time = 238 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1007 	 ack = 1 	 req = 0 	 out = 200f
+# time = 239 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1007 	 ack = 1 	 req = 0 	 out = 200f
+# time = 240 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1007 	 ack = 1 	 req = 0 	 out = 200f
+# time = 241 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1008 	 ack = 1 	 req = 0 	 out = 200f
+# time = 242 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1008 	 ack = 1 	 req = 0 	 out = 200f
+# time = 243 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1008 	 ack = 1 	 req = 0 	 out = 200f
+# time = 244 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1008 	 ack = 1 	 req = 0 	 out = 200f
+# time = 245 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1008 	 ack = 1 	 req = 0 	 out = 200f
+# time = 246 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1008 	 ack = 1 	 req = 0 	 out = 200f
+# time = 247 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1009 	 ack = 1 	 req = 0 	 out = 200f
+# time = 248 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1009 	 ack = 1 	 req = 0 	 out = 200f
+# time = 249 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1009 	 ack = 1 	 req = 0 	 out = 200f
+# time = 250 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1009 	 ack = 1 	 req = 0 	 out = 200f
+# time = 251 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1009 	 ack = 1 	 req = 0 	 out = 200f
+# time = 252 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1009 	 ack = 1 	 req = 0 	 out = 200f
+# time = 253 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 100a 	 ack = 1 	 req = 0 	 out = 200f
+# time = 254 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 100a 	 ack = 1 	 req = 0 	 out = 200f
+# time = 255 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100a 	 ack = 1 	 req = 0 	 out = 200f
+# time = 256 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100a 	 ack = 1 	 req = 0 	 out = 200f
+# time = 257 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100a 	 ack = 1 	 req = 0 	 out = 200f
+# time = 258 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100a 	 ack = 1 	 req = 0 	 out = 200f
+# time = 259 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 100b 	 ack = 1 	 req = 0 	 out = 200f
+# time = 260 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 100b 	 ack = 1 	 req = 0 	 out = 200f
+# time = 261 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100b 	 ack = 1 	 req = 0 	 out = 200f
+# time = 262 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100b 	 ack = 1 	 req = 0 	 out = 200f
+# time = 263 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100b 	 ack = 1 	 req = 0 	 out = 200f
+# time = 264 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100b 	 ack = 1 	 req = 0 	 out = 200f
+# time = 265 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 100c 	 ack = 1 	 req = 0 	 out = 200f
+# time = 266 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 100c 	 ack = 1 	 req = 0 	 out = 200f
+# time = 267 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100c 	 ack = 1 	 req = 0 	 out = 200f
+# time = 268 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100c 	 ack = 1 	 req = 0 	 out = 200f
+# time = 269 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100c 	 ack = 1 	 req = 0 	 out = 200f
+# time = 270 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100c 	 ack = 1 	 req = 0 	 out = 200f
+# time = 271 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 100d 	 ack = 1 	 req = 0 	 out = 200f
+# time = 272 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 100d 	 ack = 1 	 req = 0 	 out = 200f
+# time = 273 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100d 	 ack = 1 	 req = 0 	 out = 200f
+# time = 274 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100d 	 ack = 1 	 req = 0 	 out = 200f
+# time = 275 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100d 	 ack = 1 	 req = 0 	 out = 200f
+# time = 276 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100d 	 ack = 1 	 req = 0 	 out = 200f
+# time = 277 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 100e 	 ack = 1 	 req = 0 	 out = 200f
+# time = 278 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 100e 	 ack = 1 	 req = 0 	 out = 200f
+# time = 279 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100e 	 ack = 1 	 req = 0 	 out = 200f
+# time = 280 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100e 	 ack = 1 	 req = 0 	 out = 200f
+# time = 281 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100e 	 ack = 1 	 req = 0 	 out = 200f
+# time = 282 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100e 	 ack = 1 	 req = 0 	 out = 200f
+# time = 283 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 100f 	 ack = 1 	 req = 0 	 out = 200f
+# time = 284 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 100f 	 ack = 1 	 req = 0 	 out = 200f
+# time = 285 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100f 	 ack = 1 	 req = 0 	 out = 200f
+# time = 286 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100f 	 ack = 1 	 req = 0 	 out = 200f
+# time = 287 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100f 	 ack = 1 	 req = 0 	 out = 200f
+# time = 288 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 100f 	 ack = 1 	 req = 0 	 out = 200f
+# time = 289 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1010 	 ack = 1 	 req = 0 	 out = 200f
+# time = 290 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1010 	 ack = 1 	 req = 0 	 out = 200f
+# time = 291 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1010 	 ack = 1 	 req = 0 	 out = 200f
+# time = 292 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1010 	 ack = 1 	 req = 0 	 out = 200f
+# time = 293 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1010 	 ack = 1 	 req = 0 	 out = 200f
+# time = 294 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1010 	 ack = 1 	 req = 0 	 out = 200f
+# time = 295 	 clk = 1 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 200f
+# time = 296 	 clk = 0 	 rst = 0 	 wrt = 1 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 200f
+# time = 297 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 200f
+# time = 298 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 200f
+# time = 299 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 200f
+# time = 300 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 200f
+# time = 301 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 200f
+# time = 302 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 200f
+# time = 303 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 200f
+# time = 304 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 200f
+# time = 305 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 200f
+# time = 306 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 200f
+# time = 307 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 1 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 200f
+# time = 308 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 1 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 200f
+# time = 309 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 1010
+# time = 310 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 1010
+# time = 311 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 1010
+# time = 312 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 1010
+# time = 313 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 1010
+# time = 314 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 1010
+# time = 315 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 1010
+# time = 316 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 1010
+# time = 317 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 1010
+# time = 318 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 1010
+# time = 319 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1010
+# time = 320 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1010
+# time = 321 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 1010
+# time = 322 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 1010
+# time = 323 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1010
+# time = 324 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1010
+# time = 325 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1010
+# time = 326 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1010
+# time = 327 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1010
+# time = 328 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1010
+# time = 329 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1010
+# time = 330 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1010
+# time = 331 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1010
+# time = 332 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1010
+# time = 333 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1010
+# time = 334 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1010
+# time = 335 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1011
+# time = 336 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1011
+# time = 337 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1011
+# time = 338 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1011
+# time = 339 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1011
+# time = 340 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1011
+# time = 341 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1011
+# time = 342 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1011
+# time = 343 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1011
+# time = 344 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1011
+# time = 345 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1002
+# time = 346 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1002
+# time = 347 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1002
+# time = 348 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1002
+# time = 349 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1002
+# time = 350 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1002
+# time = 351 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1002
+# time = 352 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1002
+# time = 353 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1002
+# time = 354 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1002
+# time = 355 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1003
+# time = 356 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1003
+# time = 357 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1003
+# time = 358 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1003
+# time = 359 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1003
+# time = 360 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1003
+# time = 361 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1003
+# time = 362 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1003
+# time = 363 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1003
+# time = 364 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1003
+# time = 365 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1004
+# time = 366 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1004
+# time = 367 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1004
+# time = 368 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1004
+# time = 369 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1004
+# time = 370 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1004
+# time = 371 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1004
+# time = 372 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1004
+# time = 373 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1004
+# time = 374 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1004
+# time = 375 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1005
+# time = 376 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1005
+# time = 377 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1005
+# time = 378 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1005
+# time = 379 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1005
+# time = 380 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1005
+# time = 381 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1005
+# time = 382 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1005
+# time = 383 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1005
+# time = 384 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1005
+# time = 385 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1006
+# time = 386 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1006
+# time = 387 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1006
+# time = 388 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1006
+# time = 389 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1006
+# time = 390 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1006
+# time = 391 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1006
+# time = 392 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1006
+# time = 393 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1006
+# time = 394 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1006
+# time = 395 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1007
+# time = 396 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1007
+# time = 397 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1007
+# time = 398 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1007
+# time = 399 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1007
+# time = 400 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1007
+# time = 401 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1007
+# time = 402 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1007
+# time = 403 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1007
+# time = 404 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1007
+# time = 405 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1008
+# time = 406 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1008
+# time = 407 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1008
+# time = 408 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1008
+# time = 409 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1008
+# time = 410 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1008
+# time = 411 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1008
+# time = 412 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1008
+# time = 413 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1008
+# time = 414 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1008
+# time = 415 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1009
+# time = 416 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1009
+# time = 417 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1009
+# time = 418 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 1009
+# time = 419 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1009
+# time = 420 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 1009
+# time = 421 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1009
+# time = 422 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1009
+# time = 423 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1009
+# time = 424 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 1009
+# time = 425 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100a
+# time = 426 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100a
+# time = 427 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 100a
+# time = 428 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 100a
+# time = 429 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 100a
+# time = 430 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 100a
+# time = 431 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100a
+# time = 432 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100a
+# time = 433 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100a
+# time = 434 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100a
+# time = 435 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100b
+# time = 436 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100b
+# time = 437 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 100b
+# time = 438 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 100b
+# time = 439 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 100b
+# time = 440 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 100b
+# time = 441 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100b
+# time = 442 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100b
+# time = 443 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100b
+# time = 444 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100b
+# time = 445 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100c
+# time = 446 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100c
+# time = 447 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 100c
+# time = 448 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 100c
+# time = 449 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 100c
+# time = 450 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 100c
+# time = 451 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100c
+# time = 452 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100c
+# time = 453 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100c
+# time = 454 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100c
+# time = 455 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100d
+# time = 456 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100d
+# time = 457 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 100d
+# time = 458 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 100d
+# time = 459 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 100d
+# time = 460 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 100d
+# time = 461 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100d
+# time = 462 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100d
+# time = 463 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100d
+# time = 464 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100d
+# time = 465 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100e
+# time = 466 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100e
+# time = 467 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 100e
+# time = 468 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 1 	 out = 100e
+# time = 469 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 100e
+# time = 470 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 1 	 out = 100e
+# time = 471 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100e
+# time = 472 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100e
+# time = 473 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100e
+# time = 474 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 0 	 req = 0 	 out = 100e
+# time = 475 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 476 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 477 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 478 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 479 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 480 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 481 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 482 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 483 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 484 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 485 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 486 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 487 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 488 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 489 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 490 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 491 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 492 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 493 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 494 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 495 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 496 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 497 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 498 	 clk = 0 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+# time = 499 	 clk = 1 	 rst = 0 	 wrt = 0 	 str = 0 	 in  = 1011 	 ack = 1 	 req = 0 	 out = 100f
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto01/sender/ModelSim/wave.do
+quit -sim
+# End time: 21:48:17 on Oct 21,2022, Elapsed time: 0:08:38
+# Errors: 0, Warnings: 1
