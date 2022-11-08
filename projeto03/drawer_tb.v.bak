@@ -1,0 +1,27 @@
+module vga_tb;
+
+reg clk = 0;
+wire H, V, R, G, B;
+
+drawer dwr (
+	.clk(clk),
+	.vga_h_sync(H),
+	.vga_v_sync(V),
+	.vga_R(R),
+	.vga_G(G),
+	.vga_B(B)
+);
+
+always #1 clk = ~clk;
+
+//integer i = 0;
+
+initial begin
+
+  $monitor("time = %0t \t clk = %0h \t H = %0h \t V = %0h \t R = %0h \t G  = %0h \t B = %0h",
+  $time, clk, H, V, R, G, B);
+
+  
+end
+
+endmodule
